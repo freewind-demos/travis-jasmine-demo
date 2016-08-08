@@ -1,7 +1,9 @@
-Jasmine Demo
-============
+Travis Jasmine Demo
+===================
 
-A very simple jasmine demo and how to run it in command line
+A very simple travis + jasmine demo.
+
+CI status: ![Build Status](https://travis-ci.org/js-demos/travis-jasmine-demo.png?branch=master)
 
 ```
 npm install
@@ -12,12 +14,3 @@ Run test:
 ```
 npm test
 ```
-
-How to create the `jasmine.json`
---------------------------------
-
-```
-jasmine init
-```
-
-It will create `spec/support/jasmine.json` with default content.
